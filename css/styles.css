@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* border: 5px solid yellow;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: blue;
+    padding: 1%;
+    color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: darkblue;
+}
+
+.btn-secondary{
+    background-color:green;
+    padding: 1%;
+    color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color:greenyellow;
+}
+.btn-end{
+    background-color:red;
+    padding: 1%;
+    color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-end:hover{
+    background-color:rgb(204, 30, 30);
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+/* css for menu(HEADER CSS)*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #962a45;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #996d2f
+
+}
+/*-------------------------------------------------------*/
+
+/* css for main content*/
+.main-content{
+    
+    background-color: rgb(147, 182, 223) !important;
+    padding: 3%;
+   /*background-image: url(../images/photo7.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-4{
+    width: 17%;
+    background-color: #fcfcfc;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    float: left;
+}
+/*---------------------------------------------------------------*/
+
+
+/*  css for footer*/
+.footer{
+    background-color:#3e96dd;
+    font-size: 13px;
+    color: rgb(216, 27, 52);
+}
+/*------------------------------------------------------------------------------*/
+.tbl-full{
+    width:100%;
+}
+.tbl{
+    width: 30%;
+}
+
+
+/* css for add admin page*/
+/* .box{
+top: inherit;
+} */

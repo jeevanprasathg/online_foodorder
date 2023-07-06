@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.wrapper{
+     /*border: 1px solid yellow;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+table tr th{
+    border-bottom: 1px solid black;
+}
+/*---------------------------------------------------------------------------*/
+/* css for menu(HEADER CSS)*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #962a45;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #996d2f
+
+}
+
+/* css for main content*/
+.main-content{
+    
+    background-color: rgb(190, 240, 233);
+    padding: 3%;
+}
+.col-4{
+    width: 17%;
+    background-color: #f5f0f0;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    float: left;
+}
+
+
+/*  css for footer*/
+.footer{
+    background-color:#5daa54;
+    font-size: 10px;
+    color: rgb(145, 153, 73);
+}
+/*------------------------------------------------------------------------------*/
+.tbl{
+    width:70%;
+}
+.table tr th{
+    border-bottom: 6px solid #171818;
+    padding: 1%;
+}
+/* css for manage admin*/
